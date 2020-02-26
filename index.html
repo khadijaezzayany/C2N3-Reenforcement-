@@ -11,27 +11,35 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Project tracking intro component</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    Product Features Pricing Login New Monograph Dashboard Powerful insights
-    into your team Project planning and time tracking for agile teams Schedule a
-    demo to see a live preview
-
-    <footer>
-      <p class="attribution">Coded by <a href="#">Your Name Here</a>.</p>
-    </footer>
+    <header>
+      <input type="checkbox" id="chk">
+      <label for="chk" class="header__show--but">
+        <i class="fas fa-times"></i>
+      </label>
+    <ul class="header__menu">
+      <a href="#">Product</a>
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <a href="#">Login</a>
+      <label for="chk" class="header__hide--but">
+        <i class="fas fa-bars"></i>
+      </label>
+   </ul>
+   </header>
+   <div class="sec">
+  <a href="#">New</a> <h3>Monograph Dashboard</h3> 
+  <h1 > Powerful insights into your team </h1>
+  <p> Project planning and time tracking <br> for agile teams
+  </p>
+ <button type="button">Schedule a demo</button>
+ <button type="button">to see a preview</button>
+</div>
   </body>
 </html>

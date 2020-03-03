@@ -5,10 +5,25 @@ $color-lightgray: hsl(231, 7%, 65%);
 $colorr-light:hsl(207, 33%, 95%);
 
 body {
-    font-family: 'Barlow', ;
+    font-family: 'Barlow Condensed', sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+
+.bg {
+    background-color: $colorr-light;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 48%;
+    height: 48%;
+    border-bottom-left-radius: 50px;
+    z-index: -1111;
 }
 
 .footer {
+    padding-top: 50px;
     &__p1 {
         letter-spacing: 4px;
         color: $color-lightgray;
@@ -49,19 +64,86 @@ body {
     &__p3 {
         text-transform: uppercase;
         color: $color-lightgray;
-        letter-spacing: 3px;
+        letter-spacing: 4px;
         display: inline-block;
-        padding-left: 12px;
+        padding-left: 5px;
     }
 }
 
 .header {
     &__img {
         overflow: hidden;
+        // right: 0;
+        // position: absolute;
+
         img {
-            width: 135%;
-            
+            width: 138%;
+            margin-top: 50px;
+
         }
     }
-
 }
+.nav{
+    
+    &__a{
+        position: absolute;
+        right: 10%;
+        top: 12%;
+        width: 80%;
+        border-radius: 3px;
+        background-color:white;
+        text-align: center;
+        box-shadow: -2px 0px 10px -3px #7e7d7d;
+        transition: 0.5s;
+        
+        li{
+            list-style-type: none;
+            text-decoration: none;
+
+        }
+        a{
+       
+        display: block;
+        text-decoration: none;
+        color: black;
+        line-height: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        }
+        #line{
+            border: none;
+            width: 80%;
+            height: 2px;
+            background-color: $colorr-light;
+        }
+        #gray{
+            color: $color-lightgray;
+        }
+        
+       
+    }
+
+    #check{
+        position: absolute;
+        // display: none;
+        // z-index: -1111;
+        
+    }
+    &__show,
+    &__hide{
+        // line-height: -px;
+        // margin-bottom: 100px;
+        display: block;
+        float: right;
+        // transition: 0.4s;
+        // height: 0px;
+        // padding-left: 100px;
+
+
+        // position: absolute;
+    }
+}
+#check:checked ~.nav__hide{
+    display:block;
+  }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css?family=Barlow:400,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:400,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
     <link
@@ -18,24 +18,38 @@
 
   </head>
   <body>
+
+    <div class="bg"></div>
+
     <div class="header">
-    <nav>
-      <div class="header__logo"><img src="images/logo.svg" alt="">
+    <div class="nav">
+    
+      <div class="nav__logo"><img src="images/logo.svg" alt="">
       </div>
+      <input type="checkbox"  id="check">
       <ul>
-      
-        <li><a href="#">Product</a></li> 
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Features</a></li> 
-        <li><a href="#">Login</a></li> 
-        <li><a href="#"></a></li> 
+        <label for="check" class="nav__show">
+          <img src="images/icon-hamburger.svg" alt="">
+        </label>
+        <label for="check" class="nav__hide">
+          <img src="images/icon-close.svg" alt="">
+        </label>
+<div class="nav__a">
+       <li><a href="#">Product</a></li> 
+        <li><a href="#">Features</a></li>
+       <li><a href="#">Pricing</a></li> 
+        <li ><hr id="line"></li>
+        <li ><a href="#" id="gray">Login</a> </li>
+        <!-- <a href="#"></a> -->
+      </div>
+        
       
       </ul>
-    </nav>
+    </div>
     <div class="header__img">
       <img src="images/illustration-devices.svg" alt="">
-    </div>
-    </div>
+      </div>
+  </div>
     <div class="footer">
     <p class="footer__p1"> <span> New </span>Monograph Dashboard </p>
     <h1 class="footer__h1">Powerful insights <br> into your team </h1> 
@@ -43,7 +57,7 @@
     <a class="footer__a" href="#"> Schedule a demo</a>
     <p class="footer__p3">to see a preview</p> 
    
+  </div>
 
-  </div> 
   </body>
 </html>

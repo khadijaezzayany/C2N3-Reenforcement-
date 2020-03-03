@@ -10,7 +10,7 @@ body {
 
 .footer {
     &__p1 {
-        letter-spacing: 6px;
+        letter-spacing: 4px;
         color: $color-lightgray;
         text-transform: uppercase;
     }
@@ -24,35 +24,44 @@ body {
         margin-right: 6px;
         font-weight: 700;
     }
+
+
+    &__h1 {
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    &__p2 {
+        color: $color-gray;
+    }
+
+    &__a {
+        text-decoration: none;
+        background-color: $color-primary;
+        color: $colorr-light;
+        border-radius: 3px;
+        padding: 8px 16px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    &__p3 {
+        text-transform: uppercase;
+        color: $color-lightgray;
+        letter-spacing: 3px;
+        display: inline-block;
+        padding-left: 12px;
+    }
 }
 
-&__h1 {
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-&__p2 {
-    color: $color-gray;
-}
-
-&__a {
-    text-decoration: none;
-    background-color: $color-primary;
-    color: $colorr-light;
-    border-radius: 3px;
-    padding: 8px 16px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
-&__p3 {
-    text-transform: uppercase;
-    color: $color-lightgray;
-    letter-spacing: 3px;
-    display: inline-block;
-    padding-left: 12px;
-
-}
+.header {
+    &__img {
+        overflow: hidden;
+        img {
+            width: 135%;
+            
+        }
+    }
 
 }

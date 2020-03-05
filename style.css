@@ -136,7 +136,7 @@ body {
     box-shadow: none;
     margin-top: -60px; }
   .header .nav__a:hover {
-    text-decoration: underline; }
+    text-decoration: underlinenpm; }
   .footer {
     display: flex;
     flex-direction: row-reverse; }

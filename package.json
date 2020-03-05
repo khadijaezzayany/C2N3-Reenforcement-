@@ -1,0 +1,17 @@
+{
+  "name": "c2n3-reenforcement-",
+  "version": "1.0.0",
+  "description": "Le projet permet d'améliorer vos compétences dans un environnement de travail réel.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khadijaezzayany/C2N3-Reenforcement-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khadijaezzayany/C2N3-Reenforcement-/issues"
+  },
+  "homepage": "https://github.com/khadijaezzayany/C2N3-Reenforcement-#readme"
+}
